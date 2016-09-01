@@ -7,12 +7,30 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <map>
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     return 0;
 }
+
+struct Node
+{
+    string nodeID;
+    vector<Node> adjNode;
+    vector<int> time;
+    map<Node,int> adjNodeInfo;
+};
+
+void readfile( string file )
+{
+    
+}
+
 
 
 // zhel i shi ben ruur de shijie
